@@ -1,6 +1,6 @@
 //Testbench Code for 101 Sequence Detector (Mealey Machine Overlapping)
 
-module fsm_detector_mealey_tb();
+module fsm_detector_mealeyo_tb();
 
 reg in;
 reg clk;
@@ -8,7 +8,7 @@ reg reset;
 
 wire out;
 
-fsm_detector_mealey dut(.in(in),.clk(clk),.reset(reset),.out(out));
+fsm_detector_mealeyo dut(.in(in),.clk(clk),.reset(reset),.out(out));
 
   initial begin
     in=1'b0;  // Initialize input
