@@ -1,8 +1,7 @@
 # RTL-Day-20-Mealey-Machine
 ### Problem Statement: Implementing 101 Sequence Detector Mealy machine.
 #### Theory:
-A sequence detector is a sequential state machine that takes an input string of 
-bits and generates an output 1 whenever the target sequence has been detected. 
+A sequence detector is a sequential state machine that takes an input string of bits and generates an output 1 whenever the target sequence has been detected. 
 In a Mealy machine, output depends on the present state and the external input 
 (x). Hence, in the diagram, the output is written outside the states, along with 
 inputs. Sequence detector is of two types:
